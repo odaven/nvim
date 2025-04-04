@@ -4,8 +4,8 @@
 
 vim.g.snacks_animate = false
 
-vim.opt.clipboard = "unnamedplus"
-vim.opt.conceallevel = 0
+-- vim.opt.clipboard = "unnamedplus"
+-- vim.opt.conceallevel = 0
 vim.opt.scrolloff = 9999
 vim.opt.swapfile = false
 vim.opt.winbar = "%=%m %f"
