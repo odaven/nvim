@@ -1,36 +1,13 @@
 return {
   {
-    "rebelot/kanagawa.nvim",
-    lazy = false,
-    priority = 1000,
-    opts = {
-      dimInactive = true,
-      colors = {
-        theme = {
-          wave = {
-            ui = {
-              bg = "#000000",
-            },
-          },
-        },
-      },
-    },
-  },
-  {
     "catppuccin/nvim",
     lazy = false,
     name = "catppuccin",
     priority = 1000,
     opts = {
       flavour = "mocha", -- latte, frappe, macchiato, mocha
-      dim_inactive = {
-        enabled = true,
-      },
-      color_overrides = {
-        mocha = {
-          base = "#000000",
-        },
-      },
+      dim_inactive = { enabled = true },
+      color_overrides = { mocha = { base = "#000000" } },
     },
   },
   {
@@ -49,6 +26,15 @@ return {
           delete = colors.red1,
         }
       end,
+    },
+  },
+  {
+    "rebelot/kanagawa.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {
+      dimInactive = true,
+      colors = { theme = { wave = { ui = { bg = "#000000" } } } },
     },
   },
   {
