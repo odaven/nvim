@@ -20,6 +20,7 @@ return {
     "folke/snacks.nvim",
     opts = {
       dashboard = { preset = { header = "" } },
+      picker = { previewers = { git = { builtin = false } } },
     },
   },
 }
