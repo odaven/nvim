@@ -6,7 +6,10 @@ return {
     priority = 1000,
     opts = {
       flavour = "mocha", -- latte, frappe, macchiato, mocha
-      dim_inactive = { enabled = true },
+      dim_inactive = {
+        enabled = true,
+        percentage = 0.60, -- percentage of the shade to apply to the inactive window
+      },
       color_overrides = { mocha = { base = "#000000" } },
     },
   },
@@ -20,6 +23,7 @@ return {
       on_colors = function(colors)
         colors.bg = "#000000"
         colors.bg_float = "#000000"
+        colors.bg_dark = "#0a0a0a"
         colors.git = {
           add = colors.green,
           change = colors.orange,
