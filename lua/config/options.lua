@@ -8,3 +8,4 @@ vim.opt.conceallevel = 0
 vim.opt.scrolloff = 999
 vim.opt.swapfile = false
 vim.opt.winbar = "%t %m"
+vim.opt.winborder = "rounded"
