@@ -27,7 +27,7 @@ return {
     "folke/flash.nvim",
     config = function(_, opts)
       require("flash").setup(opts)
-      vim.api.nvim_set_hl(0, "FlashLabel", { fg = "#000000", bg = "#FFFFFF", bold = true })
+      vim.api.nvim_set_hl(0, "FlashLabel", { fg = "#000000", bg = "#B0B0B0", bold = true })
     end,
   },
 }
