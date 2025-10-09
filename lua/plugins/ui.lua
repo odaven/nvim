@@ -23,11 +23,4 @@ return {
       picker = { previewers = { git = { builtin = false } } },
     },
   },
-  {
-    "folke/flash.nvim",
-    config = function(_, opts)
-      require("flash").setup(opts)
-      vim.api.nvim_set_hl(0, "FlashLabel", { fg = "#000000", bg = "#FFFFFF", bold = true })
-    end,
-  },
 }
