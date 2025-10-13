@@ -4,3 +4,5 @@
 
 -- When doing J keep the cursor in place
 vim.keymap.set("n", "J", "mzJ`z", { desc = "Join lines", silent = true })
+
+Snacks.toggle.option("scrolloff", { off = 4, on = 999, name = "scrolloff=999" }):map("<leader>u9")
