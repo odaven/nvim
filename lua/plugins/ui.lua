@@ -17,6 +17,10 @@ return {
     },
   },
   {
+    "folke/noice.nvim",
+    opts = { presets = { lsp_doc_border = true } },
+  },
+  {
     "folke/snacks.nvim",
     opts = {
       dashboard = { preset = { header = "" } },
