@@ -6,3 +6,7 @@
 vim.keymap.set("n", "J", "mzJ`z", { desc = "Join lines", silent = true })
 
 Snacks.toggle.option("scrolloff", { off = 4, on = 999, name = "scrolloff=999" }):map("<leader>u9")
+
+vim.keymap.set("n", "<leader>bt", function()
+  Snacks.terminal("htop")
+end, { desc = "htop", silent = true })
