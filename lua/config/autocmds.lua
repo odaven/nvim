@@ -27,6 +27,7 @@ vim.api.nvim_create_autocmd({ "WinEnter", "BufEnter" }, {
       vim.wo.relativenumber = true
       vim.wo.number = true
       vim.opt_local.winbar = "%t %m"
+      vim.wo.colorcolumn = "80"
     end
   end,
 })
@@ -35,6 +36,7 @@ vim.api.nvim_create_autocmd({ "WinLeave", "BufLeave" }, {
     if vim.bo.buftype == "" then
       vim.wo.relativenumber = false
       vim.wo.number = true
+      vim.wo.colorcolumn = ""
     end
   end,
 })
