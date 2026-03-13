@@ -1,5 +1,6 @@
 return {
   { "catppuccin/nvim", lazy = true, priority = 1000 },
+  { "craftzdog/solarized-osaka.nvim", lazy = true, priority = 1000 },
   { "folke/tokyonight.nvim", lazy = false, priority = 1000 },
   { "rebelot/kanagawa.nvim", lazy = true, priority = 1000 },
 
