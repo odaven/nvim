@@ -26,7 +26,7 @@ vim.api.nvim_create_autocmd({ "WinEnter", "BufEnter" }, {
     if vim.bo.buftype == "" then
       vim.wo.relativenumber = true
       vim.wo.number = true
-      vim.opt_local.winbar = "%t %m"
+      vim.wo.winbar = "%t %m"
       vim.wo.colorcolumn = "80"
     end
   end,
