@@ -31,7 +31,7 @@ return {
       ["<leader>y"] = "actions.yank_entry",
     },
   },
-  dependencies = { "nvim-tree/nvim-web-devicons" },
+  dependencies = { { "nvim-mini/mini.icons", opts = {} } },
   lazy = false,
   keys = {
     { "<leader>o", "<cmd>Oil --float<cr>", desc = "Oil" },
