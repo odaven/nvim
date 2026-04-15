@@ -3,7 +3,7 @@ return {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
-        vtsls = {
+        tsgo = {
           settings = { typescript = { preferences = { importModuleSpecifier = "non-relative" } } },
         },
       },
