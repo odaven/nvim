@@ -5,6 +5,10 @@ return {
     config = function(_, opts)
       require("sidekick").setup(opts)
 
+      -- NES diff highlights: Same colours than tokyo night minimal theme for delta
+      vim.api.nvim_set_hl(0, "SidekickDiffAdd", { fg = "#000000", bg = "#449dab" })
+      vim.api.nvim_set_hl(0, "SidekickDiffDelete", { fg = "#000000", bg = "#914c54" })
+
       require("sidekick.config").cli.tools = {
         copilot = {},
         devin = {
