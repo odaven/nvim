@@ -25,6 +25,7 @@ return {
       local tools = {}
 
       if profile.is_personal() then
+        tools.codex = {}
         tools.copilot = {}
       end
 
